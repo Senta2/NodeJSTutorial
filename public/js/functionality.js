@@ -19,7 +19,7 @@ weatherForm.addEventListener('submit',(e)=>{
     e.preventDefault()
     const location = ssearch.value
 
-    fetch('http://127.0.0.1:3000/weather?location='+location).then((response)=>{
+    fetch('/weather?location='+location).then((response)=>{
     response.json().then((data)=>{
         //console.log(data)
         mesg2.textContent = 'Am primit locatia sau ceva'+data.location
