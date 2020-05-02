@@ -6,3 +6,5 @@ notes.json
 package-lock.json
 weather-app/
 yargs_exemplu.js
+task-manager/node_modules/
+web_server_tmp/node_modules/
